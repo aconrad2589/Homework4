@@ -34,6 +34,7 @@ namespace Homework4
         [TestMethod]
         public void Homework4()
         {
+            //This is homework 4
             var myDate = DateTime.Now;
             string currentDay = myDate.ToString(format: "d MM yyyy");
             var futureDay = DateTime.Now.AddDays(7);
